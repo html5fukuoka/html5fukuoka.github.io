@@ -1,0 +1,506 @@
+.pages {
+}
+
+    .pageTitle {
+        margin: 0;
+        padding: 20px;
+        background: url(../img/bg.png);
+        font-size: 90%;
+        font-weight: bold;
+        color: #000;
+    }
+
+    .titleWidth {
+        display: block;
+        width: 960px;
+        margin: 0 auto;
+    }
+
+/* ==========================================================================
+   Summary styles
+   ========================================================================== */
+ .summaryList {
+    margin: 30px 0 50px;
+    font-size: 120%;
+}
+
+    .summaryList dt {
+        width: 200px;
+        margin: 0;
+        padding: 1.0em 0 1.0em 0;
+        font-weight: bold;
+    }
+
+    .summaryList dd {
+        margin: 0;
+        margin-top: -2.5em;
+        padding: 0 0 1.1em 210px;
+        border-bottom: 2px dotted #dedede;
+    }
+
+.applicationBtn {
+    clear: both;
+    text-align: center;
+}
+
+
+
+/* ==========================================================================
+   Guest styles
+   ========================================================================== */
+
+.speakerList {
+
+}
+
+    .speakerList li {
+        margin: 0 0 20px;
+        padding-bottom: 20px;
+        border-bottom: 2px dotted #cecece;
+        list-style: none;
+    }
+
+    .speakerList li:before,
+    .speakerList li:after {
+        content: " "; /* 1 */
+        display: table; /* 2 */
+    }
+
+    .speakerList li:after {
+        clear: both;
+    }
+
+    .speakerList li {
+        *zoom: 1;
+    }
+
+        .speakerList .photo {
+            width: 150px;
+            float: left;
+        }
+
+            .speakerList .photo img {
+                max-width: 100%;
+            }
+
+        .speakerList .description {
+            width: 780px;
+            float: right;
+        }
+
+            .speakerList .description dt {
+                font-size: 110%;
+                font-weight: bold;
+                margin: 0;
+            }
+
+            .speakerList .description dd {
+                margin: 10px 0 0;
+            }
+
+/* ==========================================================================
+   Sponsor styles
+   ========================================================================== */
+
+.attentionList {
+    margin: 20px 0;
+    padding: 0;
+    color: #e60012;
+}
+
+    .attentionList li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+.privilegeTable {
+    width: 100%;
+    margin: 30px 0;
+    border-collapse: separate;
+    font-size: 100%;
+}
+
+    .privilegeTable th,
+    .privilegeTable td {
+        padding: 20px;
+        border-top: 1px solid #cecece;
+        border-left: 1px solid #cecece;
+        border-right: 1px solid #cecece;
+        border-bottom: 1px solid #fff;
+        text-align: left;
+        background-color: #f1f1f1;
+    }
+
+    .privilegeTable th {
+        border-right: 1px solid #fff;
+    }
+
+    .privilegeTable thead th {
+        text-align: center;
+        background-color: #F6F4DE;
+    }
+
+    .privilegeTable thead th:last-child {
+        border-right: 1px solid #cecece;
+    }
+
+    .privilegeTable tbody th {
+        font-size: 150%;
+    }
+
+    .privilegeTable tbody tr:nth-child(4) th,
+    .privilegeTable tbody tr:nth-child(4) td {
+        border-bottom: 1px solid #cecece;
+    }
+
+    .privilegeTable .price {
+        border-right: 1px solid #fff;
+        font-size: 120%;
+        font-weight: bold;
+    }
+
+        .privilegeTable td ul {
+            margin: 0 0 0 20px;
+            padding: 0;
+        }
+
+.closeText {
+    margin: 120px 0;
+    font-size: 1.4em;
+    color: #e60012;
+    text-align: center;
+}
+
+/* ==========================================================================
+   Access styles
+   ========================================================================== */
+
+#mapArea {
+    width: 960px;
+    height: 400px;
+    margin: 30px auto;
+}
+
+.linkList {
+    padding: 0;
+}
+
+    .linkList li {
+        margin: 8px 0 0 0;
+        padding-left: 10px;
+        list-style: none;
+        background: url(../img/arrow.png) no-repeat 0 5px;
+    }
+
+.collegeMap {
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+/* ==========================================================================
+   Stuff styles
+   ========================================================================== */
+
+.stuff {}
+
+.stuff .column {
+    width: 45%;
+    margin-top: 10px;
+}
+
+    .stuff dl {
+        margin-bottom: 40px;
+    }
+
+        .stuff dt {
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #CCCCCC;
+            font-size: 1.0em;
+            font-weight: bold;
+        }
+
+        .stuff dd {
+            margin: 8px 0 0 20px;
+            padding: 0;
+        }
+
+        .stuff .help {
+            color: #e60012;
+        }
+
+
+.stuffTable {
+    width: 100%;
+}
+    .stuffTable th,
+    .stuffTable td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 2px dotted #ccc;
+    }
+
+    .stuffTable ul:before,
+    .stuffTable ul:after {
+        content: " "; /* 1 */
+        display: table; /* 2 */
+    }
+
+    .stuffTable th {
+        width: 10%;
+    }
+
+        .stuffTable ul:after {
+            clear: both;
+        }
+
+        .stuffTable ul {
+            *zoom: 1;
+        }
+
+        .stuffTable ul li {
+            width: auto;
+            float: left;
+            margin-right: 10px;
+            list-style: none;
+        }
+
+/* ==========================================================================
+   Time Table
+   ========================================================================== */
+
+.timeTable {
+    margin-top: 20px;
+    border-collapse: collapse;
+    border: 3px double #ddd;
+}
+
+    .timeTable thead th {
+        background-color: #F6F4DE;
+        border: 1px dotted #ccc;
+        border-bottom: 1px solid #e1dfcb;
+    }
+
+    .timeTable th,
+    .timeTable td {
+        padding: 20px 10px;
+        border: 1px dotted #ccc;
+    }
+
+    .timeTable td {
+        vertical-align: top;
+    }
+
+    .timeTable tbody th {
+        background-color: #f7f6ed;
+    }
+
+    .timeTable tbody td {
+        width: 30%;
+    }
+
+    .timeTable .breakTime th {
+        padding: 10px;
+    }
+
+    .timeTable .breakTime td {
+        padding: 10px;
+        background-color: #f0f0f0;
+    }
+
+        .timeTable .speaker {
+            margin-top: 5px;
+        }
+
+/* ==========================================================================
+   reception
+   ========================================================================== */
+
+.ticketInfo {
+    margin: 30px 0 50px;
+    padding: 7px 20px;
+    background-color: #f1f1f1;
+}
+
+    .ticketInfo h2 {
+        font-size: 100%;
+    }
+
+   .ticketInfo .infoTxt {
+        margin: 0;
+    }
+
+    .ticketInfo dl {
+        margin: 10px 0 10px;
+    }
+
+        .ticketInfo dt {
+            width: 100px;
+            margin: 0;
+            padding: 0.1em 0 0.1em 0;
+            font-weight: bold;
+        }
+
+        .ticketInfo dd {
+            margin: 0;
+            margin-top: -1.4em;
+            padding: 0 0 0.2em 110px;
+        }
+
+    .ticketInfo .issueInfo {
+        margin-top: 20px;
+        padding-top: 10px;
+        border-top: 3px double #ccc;
+    }
+
+        .ticketInfo .issueInfo p {
+            margin-bottom: 0;
+        }
+
+        .ticketInfo .issueInfo ol {
+            margin-left: 5px;
+            padding-left: 10px;
+        }
+
+        .ticketInfo .issueInfo ol li {
+            margin: 5px 0 0 7px;
+        }
+
+/*        .ticketInfo .issueInfo .attentionList {
+            margin-top: 5px;
+        }
+*/
+            .ticketInfo .issueInfo .attentionList li {
+                margin: 5px 0 0 0;
+                padding: 0;
+                list-style: none;
+                color: #333;
+                font-size: 90%;
+            }
+
+
+/* ==========================================================================
+   Report
+   ========================================================================== */
+
+.thanksTxt {
+    font-weight: bold;
+    color: #e60012;
+}
+
+.documents {
+    margin-top: 30px;
+}
+
+.documents .titleStyle {
+    font-family: sans-serif;
+}
+
+.documents .documentsTable {
+    margin-top: 20px;
+    border-collapse: collapse;
+    border: 3px double #ddd;
+}
+
+    .documents .documentsTable thead th {
+        background-color: #F6F4DE;
+        border: 1px dotted #ccc;
+        border-bottom: 1px solid #e1dfcb;
+    }
+
+    .documents .documentsTable th,
+    .documents .documentsTable td {
+        padding: 20px 10px;
+        border: 1px dotted #ccc;
+    }
+
+    .documents .documentsTable td {
+        vertical-align: top;
+    }
+
+    .documents .documentsTable tbody th {
+        background-color: #f7f6ed;
+    }
+
+    .documents .documentsTable tbody td {
+        width: 30%;
+    }
+
+    .documents .documentsTable .breakTime th {
+        padding: 10px;
+    }
+
+    .documents .documentsTable .breakTime td {
+        padding: 10px;
+        background-color: #f0f0f0;
+    }
+
+        .documents .documentsTable .speaker {
+            margin-bottom: 5px;
+        }
+
+        .documents .documentsTable .dataList {
+            margin-top: 10px;
+            padding: 0;
+        }
+
+            .documents .documentsTable .dataList li {
+                background: url("../img/arrow.png") no-repeat scroll 0 7px transparent;
+                list-style: none outside none;
+                margin: 5px 0 0;
+                padding-left: 10px;
+            }
+
+.blogs,
+.others {
+    margin-top: 40px;
+}
+
+.blogs .blogList,
+.others .otherList {
+    margin: 5px 0 40px 0;
+    padding: 0;
+}
+
+    .blogs .blogList li,
+    .others .otherList li {
+        background: url("../img/arrow.png") no-repeat scroll 0 7px transparent;
+        list-style: none outside none;
+        margin: 5px 0 0;
+        padding-left: 10px;
+    }
+
+.photos {
+    margin-top: 40px;
+}
+
+    .photos .photoList ul {
+        margin: 0;
+        padding: 0;
+    }
+
+        .photos .photoList li {
+            width: 21%;
+            float: left;
+            margin: 0 2% 30px;
+            padding: 0;
+            list-style: none;
+        }
+
+        .photoImg {
+            transition: all 0.6s ease;
+            -webkit-transition: all 0.6s ease;
+            -moz-transition: all 0.6s ease;
+            -o-transition: all 0.6s ease;
+        }
+
+        .photoImg:hover {
+            opacity: 0.6;
+        }
+
+
+
+
+

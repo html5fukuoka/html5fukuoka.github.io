@@ -1,0 +1,44 @@
+.titleStyle {
+    margin: 0 0 30px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 150%;
+    padding: 0 5px 5px;
+    border-bottom: 1px solid #ccc;
+    font-weight: normal;
+    /*color: #f16529;*/
+    font-style: italic;
+    color: #333;
+}
+
+.innerWidth {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.topSpace {
+    margin-top: 30px;
+}
+
+.topSpace40 {
+    margin-top: 40px;
+}
+
+.red {
+    color: #e60012;
+}
+
+.comingSoon {
+    margin: 100px 0;
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
